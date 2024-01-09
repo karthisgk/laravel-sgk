@@ -1,0 +1,1 @@
+cp /home/site/wwwroot/vite.config.js /home/site/
