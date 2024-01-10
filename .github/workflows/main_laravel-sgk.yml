@@ -58,7 +58,7 @@ jobs:
         uses: azure/webapps-deploy@v2
         id: deploy-to-webapp
         with:
-          app-name: 'laravel-sgk'
+          app-name: ${{ env.WEBAPP_NAME }}
           slot-name: 'Production'
           package: .
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D27A417947534802B4CC9A81E1923C47 }}
