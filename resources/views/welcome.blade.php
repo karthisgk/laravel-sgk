@@ -12,6 +12,6 @@
     </style>
 </head>
 <body>
-    <div class="dev">App changes reflect - new change 1</div>
+    <div class="dev">App changes reflect - new change 2</div>
 </body>
 </html>
